@@ -1,0 +1,20 @@
+.home-container {
+  background-image: url('https://i.pinimg.com/736x/cb/47/a9/cb47a93a0537e26961c5d3c41d36e8ef.jpg'); /* URL slike */
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:322C2B ;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.home-container p {
+  z-index: 1;
+  position: relative;
+  margin: 10px 0;
+}
+

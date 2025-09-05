@@ -1,0 +1,96 @@
+
+:root {
+  --primary-color: #322C2B; /* Glavna boja */
+  --secondary-color: #ffffff; /* Boja pozadine */
+  --text-color: #1D1616; /* Boja teksta */
+  --header-footer-bg: #DEAC80; /* Pozadina za header i footer */
+  --accent-color: #ff5722; /* Naglašena boja za linkove */
+}
+
+/* Osnovne postavke za tijelo stranice */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Header stilovi */
+header {
+  background-color: var(--header-footer-bg);
+  color: var(--secondary-color);
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+/* Main sadržaj */
+main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer stilovi */
+footer {
+  background-color: var(--header-footer-bg);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #444;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.text-container {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.image-container {
+  width: 35%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
